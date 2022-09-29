@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Goldman', cursive;
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: black;
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 170px;
+}
+
+ul {
+    font-size: 25px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Goldman', cursive;
+}
+
+a:hover {
+    transition: 0.3s;
+    color: #7bc42d;
+    padding: 15px;
+}
+
+#border-btn {
+    border: 2px solid;
+    border-radius: 55px;
+    border-color: white;
+    padding: 15px;
+}
+
+#border-btn:hover {
+    transition: 0.3s;
+    background-color: white;
+    color: #7bc42d;
+}
+
+#header-to-main {
+    border: 2px solid;
+    background-color: #7bc42d;
+    border-color: #7bc42d;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.gif-1 {
+    text-align: center;
+}
+
+.first-img {
+    margin-top: 150px;
+    text-align: center;
+}
+
+#img1 {
+    width: 500px;
+}
+
+#destaques-h3 {
+    font-size: 35px;
+    color: #7bc42d;
+    text-align: center;
+}
+
+#destaques-p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#infinity {
+    color: #7bc42d;
+}
+
+.p-frase {
+    text-align: center;
+}
+
+#frase-of-p {
+    font-size: 40px;
+}
+
+#h1-out {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#main-to-footer {
+    border: 2px solid;
+    background-color: #7bc42d;
+    border-color: #7bc42d;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+}
